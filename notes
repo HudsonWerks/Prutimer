@@ -17,7 +17,7 @@ pasm (PRUSS assembler)
 Hardware connections:
 
 5v from power supply to VCC on HC-SR04 and pin P9.06
-GND from power supply to GND on HC-SR04
+GND from power supply to GND on HC-SR04 and GND on the BBB
 pin p9.12 on BBB to trigger on HC-SR04 (worked without level shifting)
 pin p8.15 on BBB will go to echo on HC-SR04 BUT NEEDS LEVEL SHIFTING. 
 
