@@ -12,8 +12,8 @@ T811:
 TB1:
   qbbs TB1,r31,15 // wait here for echo line to go low
 
-// WAIT FOR THE ECHO PULSE TB2:
-
+// WAIT FOR THE ECHO PULSE
+TB2:
   qbbc TB2,r31,15 // wait here for echo line to go high - start of pulse
 
 // START THE CYCLE COUNTER
